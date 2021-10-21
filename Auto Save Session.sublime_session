@@ -1,0 +1,865 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 4113,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 600.0,
+		"new_window_maximized": false,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/connors37/sites /website.html",
+				"/Users/connors37/sites /index.html"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <!-- Required meta tags -->\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n    <!-- Bootstrap CSS -->\n    <link\n      href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\"\n      rel=\"stylesheet\"\n      integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\"\n      crossorigin=\"anonymous\"\n    />\n\n    <!-- ......  -->\n    <!-- PUT YOUR TITLE IN PLACE OF TITLE BELOW: -->\n    <!-- ......  -->\n\n    <title>Connor Smith's site</title>\n\n\n    <!-- ... -->\n    <!-- ... -->\n    <!-- ... -->\n\n    <link\n      rel=\"canonical\"\n      href=\"https://getbootstrap.com/docs/5.0/examples/starter-template/\"\n    />\n\n    <!-- Bootstrap core CSS -->\n    <link\n      href=\"http://pachecod.github.io/bootstrap/assets/dist/css/bootstrap.min.css\"\n      rel=\"stylesheet\"\n    />\n\n    <style>\n      .bd-placeholder-img {\n        font-size: 1.125rem;\n        text-anchor: middle;\n        -webkit-user-select: none;\n        -moz-user-select: none;\n        user-select: none;\n      }\n\n      @media (min-width: 768px) {\n        .bd-placeholder-img-lg {\n          font-size: 3.5rem;\n        }\n      }\n    </style>\n\n    <!-- Custom styles for this template -->\n    <link href=\"starter-template.css\" rel=\"stylesheet\" />\n  </head>\n  <body>\n    <nav class=\"navbar navbar-expand-md navbar-dark bg-dark fixed-top\">\n      <div class=\"container-fluid\">\n\n        <!-- ... -->\n        <!-- PUT YOUR GITHUB USER NAME IN THE URL BELOW -->\n        <!-- ... -->\n\n        <a class=\"navbar-brand\" href=\"https://c4smith.github.io\"\n          >HOME</a\n        >\n\n        <!-- ... -->\n        <!-- ... -->\n        <!-- ... -->\n\n        <button\n          class=\"navbar-toggler\"\n          type=\"button\"\n          data-bs-toggle=\"collapse\"\n          data-bs-target=\"#navbarsExampleDefault\"\n          aria-controls=\"navbarsExampleDefault\"\n          aria-expanded=\"false\"\n          aria-label=\"Toggle navigation\"\n        >\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n\n        <div class=\"collapse navbar-collapse\" id=\"navbarsExampleDefault\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-md-0\">\n            <!-- ... -->\n            <!-- REPLACE LINKS AND LINK TITLE BELOW WITH YOUR OWN, OR REMOVE THEM ENTIRELY -->\n            <!-- ... -->\n\n            <li class=\"nav-item active\">\n              <a class=\"nav-link\" aria-current=\"page\" href=\"http://link\"\n                >MYSTORY</a\n              >\n            </li>\n\n            <!-- ... -->\n            <!-- ... -->\n            <!-- ... -->\n          </ul>\n        </div>\n      </div>\n    </nav>\n\n    <main class=\"container\">\n      <div class=\"starter-template text-left py-5 px-3\">\n\n        <!-- ... -->\n        <!-- PAGE CONTENT STARTS HERE -->\n        <!-- ... -->\n\n        <p><br /></p>\n\n        <a name=\"top\"></a>\n\n        <h1>\n         Welcome to my site\n        </h1>\n\n        <img src=\"https://pbs.twimg.com/profile_images/1392217745647972352/LgMI93vO_400x400.jpg\"><img>\n\n        <p>\n          Welcome to my GitHub page. I used this space to share my work. \n        </p>\n\n        \n        <!-- ... -->\n        <!-- END PAGE CONTENT -->\n        <!-- ... -->\n        \n      </div>\n    </main>\n    <!-- /.container -->\n\n    <script src=\"../assets/dist/js/bootstrap.bundle.min.js\"></script>\n  </body>\n</html>\n",
+					"file": "/Users/connors37/Downloads/pagetemplate 2/index-whole.html",
+					"file_size": 3331,
+					"file_write_time": 132792940920000000,
+					"settings":
+					{
+						"buffer_size": 3393,
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": "\\\\\\"
+							},
+							"AwAAADkCAAAAAAAAOgIAAAAAAAAAAAAAOgIAAAAAAAA7AgAAAAAAAAAAAAA7AgAAAAAAADwCAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOQIAAAAAAAA5AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							12,
+							"left_delete",
+							null,
+							"DAAAADsCAAAAAAAAOwIAAAAAAAABAAAAXDoCAAAAAAAAOgIAAAAAAAABAAAAXDkCAAAAAAAAOQIAAAAAAAABAAAAXDgCAAAAAAAAOAIAAAAAAAABAAAAZTcCAAAAAAAANwIAAAAAAAABAAAAbDYCAAAAAAAANgIAAAAAAAABAAAAdDUCAAAAAAAANQIAAAAAAAABAAAAaTQCAAAAAAAANAIAAAAAAAABAAAAVDMCAAAAAAAAMwIAAAAAAAABAAAAIDICAAAAAAAAMgIAAAAAAAABAAAAZTECAAAAAAAAMQIAAAAAAAABAAAAZzACAAAAAAAAMAIAAAAAAAABAAAAYQ",
+							"AQAAAAAAAAABAAAAPAIAAAAAAAA8AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"left_delete",
+							null,
+							"AQAAAC8CAAAAAAAALwIAAAAAAAABAAAAUA",
+							"AQAAAAAAAAABAAAAMAIAAAAAAAAwAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": "Connor"
+							},
+							"BgAAAC8CAAAAAAAAMAIAAAAAAAAAAAAAMAIAAAAAAAAxAgAAAAAAAAAAAAAxAgAAAAAAADICAAAAAAAAAAAAADICAAAAAAAAMwIAAAAAAAAAAAAAMwIAAAAAAAA0AgAAAAAAAAAAAAA0AgAAAAAAADUCAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALwIAAAAAAAAvAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": " Smith's"
+							},
+							"CAAAADUCAAAAAAAANgIAAAAAAAAAAAAANgIAAAAAAAA3AgAAAAAAAAAAAAA3AgAAAAAAADgCAAAAAAAAAAAAADgCAAAAAAAAOQIAAAAAAAAAAAAAOQIAAAAAAAA6AgAAAAAAAAAAAAA6AgAAAAAAADsCAAAAAAAAAAAAADsCAAAAAAAAPAIAAAAAAAAAAAAAPAIAAAAAAAA9AgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANQIAAAAAAAA1AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": " site"
+							},
+							"BQAAAD0CAAAAAAAAPgIAAAAAAAAAAAAAPgIAAAAAAAA/AgAAAAAAAAAAAAA/AgAAAAAAAEACAAAAAAAAAAAAAEACAAAAAAAAQQIAAAAAAAAAAAAAQQIAAAAAAABCAgAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPQIAAAAAAAA9AgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							17,
+							"left_delete",
+							null,
+							"EQAAAGQGAAAAAAAAZAYAAAAAAAABAAAARWMGAAAAAAAAYwYAAAAAAAABAAAATWIGAAAAAAAAYgYAAAAAAAABAAAAQWEGAAAAAAAAYQYAAAAAAAABAAAATmAGAAAAAAAAYAYAAAAAAAABAAAAUl8GAAAAAAAAXwYAAAAAAAABAAAARV4GAAAAAAAAXgYAAAAAAAABAAAAU10GAAAAAAAAXQYAAAAAAAABAAAAVVwGAAAAAAAAXAYAAAAAAAABAAAAQlsGAAAAAAAAWwYAAAAAAAABAAAAVVoGAAAAAAAAWgYAAAAAAAABAAAASFkGAAAAAAAAWQYAAAAAAAABAAAAVFgGAAAAAAAAWAYAAAAAAAABAAAASVcGAAAAAAAAVwYAAAAAAAABAAAAR1YGAAAAAAAAVgYAAAAAAAABAAAAUlUGAAAAAAAAVQYAAAAAAAABAAAAVVQGAAAAAAAAVAYAAAAAAAABAAAATw",
+							"AQAAAAAAAAABAAAAZQYAAAAAAABlBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFMGAAAAAAAAUwYAAAAAAAABAAAAWQ",
+							"AQAAAAAAAAABAAAAVAYAAAAAAABUBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "c4smit"
+							},
+							"BgAAAFMGAAAAAAAAVAYAAAAAAAAAAAAAVAYAAAAAAABVBgAAAAAAAAAAAABVBgAAAAAAAFYGAAAAAAAAAAAAAFYGAAAAAAAAVwYAAAAAAAAAAAAAVwYAAAAAAABYBgAAAAAAAAAAAABYBgAAAAAAAFkGAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUwYAAAAAAABTBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": "h"
+							},
+							"AQAAAFkGAAAAAAAAWgYAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWQYAAAAAAABZBgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"left_delete",
+							null,
+							"AQAAAGkLAAAAAAAAaQsAAAAAAAAJAAAAIEhFQURMSU5F",
+							"AQAAAAAAAAABAAAAcgsAAAAAAABpCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"insert",
+							{
+								"characters": "Wlec"
+							},
+							"BAAAAGkLAAAAAAAAagsAAAAAAAAAAAAAagsAAAAAAABrCwAAAAAAAAAAAABrCwAAAAAAAGwLAAAAAAAAAAAAAGwLAAAAAAAAbQsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAaQsAAAAAAABpCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							3,
+							"left_delete",
+							null,
+							"AwAAAGwLAAAAAAAAbAsAAAAAAAABAAAAY2sLAAAAAAAAawsAAAAAAAABAAAAZWoLAAAAAAAAagsAAAAAAAABAAAAbA",
+							"AQAAAAAAAAABAAAAbQsAAAAAAABtCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": "elcome"
+							},
+							"BgAAAGoLAAAAAAAAawsAAAAAAAAAAAAAawsAAAAAAABsCwAAAAAAAAAAAABsCwAAAAAAAG0LAAAAAAAAAAAAAG0LAAAAAAAAbgsAAAAAAAAAAAAAbgsAAAAAAABvCwAAAAAAAAAAAABvCwAAAAAAAHALAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAagsAAAAAAABqCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							41,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAAHALAAAAAAAAcQsAAAAAAAAAAAAAcQsAAAAAAAByCwAAAAAAAAAAAAByCwAAAAAAAHMLAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcAsAAAAAAABwCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": " my"
+							},
+							"AwAAAHMLAAAAAAAAdAsAAAAAAAAAAAAAdAsAAAAAAAB1CwAAAAAAAAAAAAB1CwAAAAAAAHYLAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcwsAAAAAAABzCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": " site"
+							},
+							"BQAAAHYLAAAAAAAAdwsAAAAAAAAAAAAAdwsAAAAAAAB4CwAAAAAAAAAAAAB4CwAAAAAAAHkLAAAAAAAAAAAAAHkLAAAAAAAAegsAAAAAAAAAAAAAegsAAAAAAAB7CwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdgsAAAAAAAB2CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"left_delete",
+							null,
+							"AQAAAKELAAAAAAAAoQsAAAAAAAAQAAAAU3RvcnkgUGFyYWdyYXBoLg",
+							"AQAAAAAAAAABAAAAsQsAAAAAAAChCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": "Welom"
+							},
+							"BQAAAKELAAAAAAAAogsAAAAAAAAAAAAAogsAAAAAAACjCwAAAAAAAAAAAACjCwAAAAAAAKQLAAAAAAAAAAAAAKQLAAAAAAAApQsAAAAAAAAAAAAApQsAAAAAAACmCwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAoQsAAAAAAAChCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							2,
+							"left_delete",
+							null,
+							"AgAAAKULAAAAAAAApQsAAAAAAAABAAAAbaQLAAAAAAAApAsAAAAAAAABAAAAbw",
+							"AQAAAAAAAAABAAAApgsAAAAAAACmCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							49,
+							1,
+							"insert",
+							{
+								"characters": "come"
+							},
+							"BAAAAKQLAAAAAAAApQsAAAAAAAAAAAAApQsAAAAAAACmCwAAAAAAAAAAAACmCwAAAAAAAKcLAAAAAAAAAAAAAKcLAAAAAAAAqAsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAApAsAAAAAAACkCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAAKgLAAAAAAAAqQsAAAAAAAAAAAAAqQsAAAAAAACqCwAAAAAAAAAAAACqCwAAAAAAAKsLAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqAsAAAAAAACoCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							51,
+							1,
+							"insert",
+							{
+								"characters": " my"
+							},
+							"AwAAAKsLAAAAAAAArAsAAAAAAAAAAAAArAsAAAAAAACtCwAAAAAAAAAAAACtCwAAAAAAAK4LAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqwsAAAAAAACrCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"insert",
+							{
+								"characters": " Gith"
+							},
+							"BQAAAK4LAAAAAAAArwsAAAAAAAAAAAAArwsAAAAAAACwCwAAAAAAAAAAAACwCwAAAAAAALELAAAAAAAAAAAAALELAAAAAAAAsgsAAAAAAAAAAAAAsgsAAAAAAACzCwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArgsAAAAAAACuCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							53,
+							1,
+							"left_delete",
+							null,
+							"AQAAALILAAAAAAAAsgsAAAAAAAABAAAAaA",
+							"AQAAAAAAAAABAAAAswsAAAAAAACzCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							54,
+							1,
+							"insert",
+							{
+								"characters": "Hub"
+							},
+							"AwAAALILAAAAAAAAswsAAAAAAAAAAAAAswsAAAAAAAC0CwAAAAAAAAAAAAC0CwAAAAAAALULAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsgsAAAAAAACyCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							55,
+							1,
+							"insert",
+							{
+								"characters": " page."
+							},
+							"BgAAALULAAAAAAAAtgsAAAAAAAAAAAAAtgsAAAAAAAC3CwAAAAAAAAAAAAC3CwAAAAAAALgLAAAAAAAAAAAAALgLAAAAAAAAuQsAAAAAAAAAAAAAuQsAAAAAAAC6CwAAAAAAAAAAAAC6CwAAAAAAALsLAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAtQsAAAAAAAC1CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							56,
+							1,
+							"insert",
+							{
+								"characters": " I'll"
+							},
+							"BQAAALsLAAAAAAAAvAsAAAAAAAAAAAAAvAsAAAAAAAC9CwAAAAAAAAAAAAC9CwAAAAAAAL4LAAAAAAAAAAAAAL4LAAAAAAAAvwsAAAAAAAAAAAAAvwsAAAAAAADACwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAuwsAAAAAAAC7CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							57,
+							4,
+							"left_delete",
+							null,
+							"BAAAAL8LAAAAAAAAvwsAAAAAAAABAAAAbL4LAAAAAAAAvgsAAAAAAAABAAAAbL0LAAAAAAAAvQsAAAAAAAABAAAAJ7wLAAAAAAAAvAsAAAAAAAABAAAASQ",
+							"AQAAAAAAAAABAAAAwAsAAAAAAADACwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							58,
+							1,
+							"insert",
+							{
+								"characters": "I"
+							},
+							"AQAAALwLAAAAAAAAvQsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvAsAAAAAAAC8CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"insert",
+							{
+								"characters": " used"
+							},
+							"BQAAAL0LAAAAAAAAvgsAAAAAAAAAAAAAvgsAAAAAAAC/CwAAAAAAAAAAAAC/CwAAAAAAAMALAAAAAAAAAAAAAMALAAAAAAAAwQsAAAAAAAAAAAAAwQsAAAAAAADCCwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvQsAAAAAAAC9CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							60,
+							1,
+							"insert",
+							{
+								"characters": " this"
+							},
+							"BQAAAMILAAAAAAAAwwsAAAAAAAAAAAAAwwsAAAAAAADECwAAAAAAAAAAAADECwAAAAAAAMULAAAAAAAAAAAAAMULAAAAAAAAxgsAAAAAAAAAAAAAxgsAAAAAAADHCwAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwgsAAAAAAADCCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							61,
+							1,
+							"insert",
+							{
+								"characters": " space"
+							},
+							"BgAAAMcLAAAAAAAAyAsAAAAAAAAAAAAAyAsAAAAAAADJCwAAAAAAAAAAAADJCwAAAAAAAMoLAAAAAAAAAAAAAMoLAAAAAAAAywsAAAAAAAAAAAAAywsAAAAAAADMCwAAAAAAAAAAAADMCwAAAAAAAM0LAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAxwsAAAAAAADHCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							62,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAAM0LAAAAAAAAzgsAAAAAAAAAAAAAzgsAAAAAAADPCwAAAAAAAAAAAADPCwAAAAAAANALAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAzQsAAAAAAADNCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							63,
+							1,
+							"insert",
+							{
+								"characters": " share"
+							},
+							"BgAAANALAAAAAAAA0QsAAAAAAAAAAAAA0QsAAAAAAADSCwAAAAAAAAAAAADSCwAAAAAAANMLAAAAAAAAAAAAANMLAAAAAAAA1AsAAAAAAAAAAAAA1AsAAAAAAADVCwAAAAAAAAAAAADVCwAAAAAAANYLAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA0AsAAAAAAADQCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							64,
+							1,
+							"insert",
+							{
+								"characters": " my"
+							},
+							"AwAAANYLAAAAAAAA1wsAAAAAAAAAAAAA1wsAAAAAAADYCwAAAAAAAAAAAADYCwAAAAAAANkLAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA1gsAAAAAAADWCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							65,
+							1,
+							"insert",
+							{
+								"characters": " work."
+							},
+							"BgAAANkLAAAAAAAA2gsAAAAAAAAAAAAA2gsAAAAAAADbCwAAAAAAAAAAAADbCwAAAAAAANwLAAAAAAAAAAAAANwLAAAAAAAA3QsAAAAAAAAAAAAA3QsAAAAAAADeCwAAAAAAAAAAAADeCwAAAAAAAN8LAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA2QsAAAAAAADZCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							66,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAN8LAAAAAAAA4AsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA3wsAAAAAAADfCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							69,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPgLAAAAAAAA+AsAAAAAAABgAAAAcD4KICAgICAgICAgIFN0b3J5IFBhcmFncmFwaC4KICAgICAgICA8L3A+CgogICAgICAgIDxwPgogICAgICAgICAgU3RvcnkgUGFyYWdyYXBoLgogICAgICAgIDwvcD4K",
+							"AQAAAAAAAAABAAAAWAwAAAAAAAD4CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							70,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPcLAAAAAAAA9wsAAAAAAAABAAAAPA",
+							"AQAAAAAAAAABAAAA+AsAAAAAAAD4CwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BQAAAEoCAAAAAAAASwIAAAAAAAAAAAAASwIAAAAAAABPAgAAAAAAAAAAAABPAgAAAAAAAFACAAAAAAAAAAAAAFACAAAAAAAAVAIAAAAAAAAAAAAASwIAAAAAAABLAgAAAAAAAAQAAAAgICAg",
+							"AQAAAAAAAAABAAAASgIAAAAAAABKAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							87,
+							3,
+							"left_delete",
+							null,
+							"AwAAAE4CAAAAAAAATgIAAAAAAAACAAAAICBMAgAAAAAAAEwCAAAAAAAAAgAAACAgSwIAAAAAAABLAgAAAAAAAAEAAAAK",
+							"AQAAAAAAAAABAAAAUAIAAAAAAABQAgAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							90,
+							1,
+							"insert",
+							{
+								"characters": "\n\n"
+							},
+							"BQAAAIoLAAAAAAAAiwsAAAAAAAAAAAAAiwsAAAAAAACTCwAAAAAAAAAAAACTCwAAAAAAAJQLAAAAAAAAAAAAAJQLAAAAAAAAnAsAAAAAAAAAAAAAiwsAAAAAAACLCwAAAAAAAAgAAAAgICAgICAgIA",
+							"AQAAAAAAAAABAAAAigsAAAAAAACKCwAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							91,
+							1,
+							"paste",
+							null,
+							"AQAAAJQLAAAAAAAA8gsAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlAsAAAAAAACUCwAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				},
+				{
+					"file": "/Users/connors37/Downloads/pagetemplate 2/newindex",
+					"settings":
+					{
+						"buffer_size": 0,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/connors37/sites /index.html",
+					"settings":
+					{
+						"buffer_size": 3735,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/connors37/sites /website.html",
+				"/Users/connors37/sites /index.html"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"put your title"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/connors37/Downloads/pagetemplate 2/index-whole.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3393,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3168,
+										3168
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1595.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/connors37/Downloads/pagetemplate 2/newindex",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/connors37/sites /index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3735,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1716,
+										1622
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 444.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "1 0 503 236 800 622 0 0 1440 877 ",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
